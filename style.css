@@ -1,0 +1,36 @@
+* {
+margin:0px;
+padding:0px;
+} 
+#container{
+background-color:bisque;
+width: 100vw;
+height: 100vw;
+background-color: aqua;
+padding:10px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.sect{
+    width:200px;
+    height:100px;
+    border:1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#sect1{
+flex:1;
+}
+#sect2{
+flex:1;
+}
+#sect3{
+flex:1;
+}
+#sect4{
+flex:1;
+}
